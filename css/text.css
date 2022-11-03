@@ -1,0 +1,21 @@
+.name-highlight{
+    color: #eff6e0;
+}
+.usual-text{
+    color: #e0e6f4;
+}
+.text-hightlight{
+    color:  #5ae6c7;
+}
+a{
+    color: #aec3b0;
+}
+.alinhar-texto{
+    float: left;
+    max-width: 35em;
+}
+.alinhar-img{
+    max-width:50%;
+    height:auto;
+    float: left;
+}
