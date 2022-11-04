@@ -3,20 +3,22 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Joao Marcos - Portfolio</title>
+        <title>Joao Marcos Santos</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        
         <link rel="stylesheet" href="/css/global.css">
         <link rel="stylesheet" href="/css/text.css">
+        <link rel="stylesheet" href="/css/header.css">
     </head>    
     <body>
         <header>
             <div class="">
-                <nav class="navbar navbar-expand-lg fixed-top">
+                <nav class="navbar navbar-expand-lg fixed-top navbar-color">
                     <div class="container-fluid">
                                 <header class="py-2 mb-0 container">
                                     <div class="d-flex flexwrap">
                                         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                                            <img src="/img/logo/logosquad.png" alt="Logo" width="157" height="62" class="bi me-2">
+                                            <img src="/assets/img/logo.png" alt="Logo"  class="bi me-2 img-logo">
                                         </a>
                                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                                             <span class="navbar-toggler-icon"></span>
@@ -28,51 +30,57 @@
                                                     <li class="nav-item"><a href="#contato" class="nav-link usual-text font-monospace"><span class="text-hightlight">03.</span>Experiencia</a></li>
                                                     <li class="nav-item"><a href="#footer" class="nav-link usual-text font-monospace"><span class="text-hightlight">04.</span>Redes Sociais</a></li>     
                                                 </ul>
-                                                <a class="my-btn my-resume font-monospace" href="#faleconosco">Curriculo</a>
+                                                <a class="my-btn my-resume font-monospace" href="#faleconosco">Currículo</a>
                                             </div>
                                     </div>        
                                 </header>
                     </div>
         </header>
-       <section id="ola" class="py-5">
+       <section id="Hello">
             <div class="container">
-                <div class="p-5">    
-                   <span class="text-hightlight font-monospace">Olá, sou o</span>  <h1 class="name-highlight">João Marcos.</h1>
-                    <h3>Aqui você acompanha parte do que eu construo para web.</h3>
-                    
-                     <p> Eu sou um desenvolvedor web fullstack. com experiencia em projetos com impacto social
-                        Atualmente estou focado em desenvolvimento backend criando soluções acessíveis para diversas plataformas.</p>
-                        <a class="my-btn font-monospace" href="#contato"> vamos conversar</a>
+                <div class="padding-hello px-3">    
+                   <p class="text-hightlight font-monospace ">Olá, sou o</p>  
                 </div>
+                <div class="">
+                   <h1 class="name-highlight">João Marcos.</h1>
+                    <h3 class="sub-textsize">Aqui você acompanha o que eu faço.</h3>
+                    
+                     <p class="lead py-3"> Eu sou um desenvolvedor web com experiencia em projetos com impacto social. Atualmente estou focado em desenvolvimento backend criando soluções acessíveis para diversas plataformas.</p>
+                </div>
+                <div class="py-5"> 
+                    <a class="my-btn font-monospace" href="mailto:joaomgsa@gmail.com"> vamos conversar</a>
+               </div>
             </div>
         </section>  
-        <section id="sobre" class="py-5">
-           <div class="container col-xxl-8 px-4 py-5">
-                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                    <h4><span class="text-hightlight font-monospace">01.</span> Sobre Mim</h4>
-                    <div class="col-10 col-sm-8 col-lg-6">
-                        <img src="/assets/img/avatar.png" class="d-block mx-lg-auto img-fluid" aria-checked="undefined" loading="lazy" >
-                    </div> 
-                    <div class="col-lg-6">
-                        <p> Olá eu sou o João e sou entusiasta de projetos que envolvam tecnologia e contribuição para a sociedade.
-                        Sempre tive interesse em desenvolvimento web quando desenvolvia pequenos sites em HTML & CSS para trabalhos de extensão.</p>
-                        <p>Em 2021, comecei um projeto na instituição Recode, o RecodePro. Onde completei uma formação em web Fullstack. Onde construi projetos que tinham na tecnologia um meio de acesso a minorias a visibilidade e ao mercado de trabalho.</p>
-                        <p>Atualmente também trabalho em um projeto social para meninos de 9-16 anos</p>
-                        <ul class="list-unstyled">
-                            <li>Estas são algumas das tecnologias que eu tenho trabalhado recentemente:
-                                <ul>
-                                    <li>Java</li>
-                                    <li>React</li>
-                                    <li>bootstrap</li>
-                                </ul>
-                            </li>
-                        </ul>
+        <section id="sobre">
+           <div class="container">
+                <div class="col px-2 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                        <h4><span class="text-hightlight font-monospace">01.</span> Sobre Mim</h4>
+                        <div class="col-10 col-sm-8 col-lg-6 bg-image">
+                            <img src="/assets/img/avatar.png" class="d-block mx-lg-auto img-fluid img-hover" aria-checked="undefined" loading="lazy" >
+                        </div> 
+                        <div class="col-lg-6 py-2">
+                            <p> Olá eu sou o João e sou entusiasta de projetos que envolvam tecnologia e contribuição para a sociedade.
+                            Sempre tive interesse em desenvolvimento web quando desenvolvia pequenos sites em HTML & CSS para trabalhos de extensão.</p>
+                            <p>Em 2021, comecei um projeto na instituição Recode, o <a href="https://recodepro.org.br/" class="text-hightlight font-monospace">RecodePro</a> Onde completei uma formação em web Fullstack. Onde construi projetos que tinham na tecnologia um meio de acesso a minorias a visibilidade e ao mercado de trabalho.</p>
+                            <p>Atualmente também trabalho em um projeto social para meninos de 9-16 anos</p>
+                            <ul class="list-unstyled">
+                                <li>Estas são algumas das tecnologias que eu tenho trabalhado recentemente:
+                                    <ul>
+                                        <li><img src="/assets/img/java.svg" width="38px" height="38px">java</li>
+                                        <li><img src="/assets/img/react.svg" width="38px" height="38px">React</li>
+                                        <li><img src="/assets/img/bootstrap.svg" width="38px" height="38px">bootstrap</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
+                </div>    
             </div>
         </section>
-        <section id="projetos" class="py-5">
-           <div class="container my-5">
+        <section id="projetos">
+           <div class="container">
                 <div class="p-4">
                     <div class="align-items-center">
                         <h4><span class="text-hightlight font-monospace">02.</span> Alguns projetos que já construí</h4>
@@ -83,7 +91,7 @@
                             <p class="font-monospace text-hightlight"> projeto comercial</p>
                             <p class=>Portal de passagens e pacotes aéreos,inspirado em portais famosos, construido utilizando React</p>
                             <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                                <a href="https://github.com/Joaomgsa/99milhas" class="my-btn my-resume font-monospace px-4 me-md-2">github</a>
+                                <a href="https://github.com/Joaomgsa/99milhas" class="my-btn my-resume font-monospace px-4 me-md-2"><img src="/assets/img/github.svg" width="28px" height="28px">github</a>
                                 <a href="https://99milhas.vercel.app/" class="my-btn my-resume font-monospace px-4">applicação</a>
                             </div>
                         </div>
@@ -97,7 +105,7 @@
                             <p class="font-monospace text-hightlight"> projeto Social</p>
                             <p class=>Portal de divulgação de vagas para mulheres trans em situação de vulnerabilidade social React, Java e Spring</p>
                             <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                                <a href="https://github.com/Joaomgsa/99milhas" class="my-btn my-resume font-monospace px-4 me-md-2">github</a>
+                                <a href="https://github.com/Joaomgsa/99milhas" class="my-btn my-resume font-monospace px-4 me-md-2"><img src="/assets/img/github.svg" width="28px" height="28px">github</a>
                                 <a href="https://elatrampa.vercel.app/" class="my-btn my-resume font-monospace px-4">applicação</a>
                             </div>
                         </div>
@@ -105,15 +113,19 @@
                             <img class="rounded-lg-3" src="/assets/img/elatrampa.png" alt="" width="720">
                         </div>
                     </div>
-                    <div>
-                        <h5 class="">Agencia Squad53</h5>
-                        <p class="font-monospace text-hightlight"> projeto comercial</p>
-                        <p>Agencia de construção de sites para empresas e profissionais liberais.</p>
-                    </div>
-                    <div>
-                        <h5>DAERBOC</h5>
-                        <p class="font-monospace text-hightlight"> projeto social</p>
-                        Agencia de construção de sites para empresas e profissionais liberais.
+                    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
+                        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                            <h5 class=" display-6 fw-bold">agencia squad53</h5>
+                            <p class="font-monospace text-hightlight"> projeto Comercial</p>
+                            <p class=>Agencia de construção de sites para empresas e profissionais liberais.</p>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                                <a href="https://github.com/Joaomgsa/joaomgsa.github.io" class="my-btn my-resume font-monospace px-4 me-md-2"><img src="/assets/img/github.svg" width="28px" height="28px">github</a>
+                                <a href="https://agenciasquad53.vercel.app/" class="my-btn my-resume font-monospace px-4">applicação</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                            <img class="rounded-lg-3" src="/assets/img/agenciasquad.png" alt="" width="720">
+                        </div>
                     </div>
             </div>
         </section>
@@ -126,7 +138,7 @@
             </div>
 
         </section>
-        <section>
+        <section id="contato">
             <div class="container">
                <div class="p-4">
                     <h4><span class="text-hightlight font-monospace">04.</span> Contato</h4> 

@@ -1,8 +1,12 @@
 .name-highlight{
     color: #eff6e0;
+    font-size: 5em;
 }
 .usual-text{
     color: #e0e6f4;
+}
+.sub-textsize{
+    font-size: 3em;
 }
 .text-hightlight{
     color:  #5ae6c7;
@@ -18,4 +22,13 @@ a{
     max-width:50%;
     height:auto;
     float: left;
+}
+.padding-hello{
+    padding-top: 10em;
+}
+.margin-text{
+    margin-left: 2em;
+}
+.img-hover{
+    background-color: (0, 183, 74, 0.6);
 }
